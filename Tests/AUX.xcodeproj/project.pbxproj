@@ -25,6 +25,7 @@
 		C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAuxRGBHexTest.m; sourceTree = "<group>"; };
 		C7BCE1521800A06100D3F022 /* UIColor+AUXRGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AUXRGBHex.h"; sourceTree = "<group>"; };
 		C7BCE1531800A06100D3F022 /* UIColor+AUXRGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AUXRGBHex.m"; sourceTree = "<group>"; };
+		C7BCE1551800AA1600D3F022 /* AUXLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AUXLog.h; path = ../AUX/AUXLog/AUXLog.h; sourceTree = "<group>"; };
 		C7F86767180091470031B7A1 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8676A180091470031B7A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676C180091470031B7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -45,13 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7BCE1401800999500D3F022 /* Categories */ = {
+		C7BCE1401800999500D3F022 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */,
 				C7BCE142180099AA00D3F022 /* UIView+AUXPosition */,
+				C7BCE1551800AA1600D3F022 /* AUXLog.h */,
 			);
-			name = Categories;
+			name = Sources;
 			path = ..;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -96,7 +98,7 @@
 		C7F8675C180091150031B7A1 = {
 			isa = PBXGroup;
 			children = (
-				C7BCE1401800999500D3F022 /* Categories */,
+				C7BCE1401800999500D3F022 /* Sources */,
 				C7BCE1411800999B00D3F022 /* Tests */,
 				C7F86769180091470031B7A1 /* Frameworks */,
 				C7F86768180091470031B7A1 /* Products */,
