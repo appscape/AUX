@@ -10,4 +10,8 @@ For block-related categories, check out [BlocksKit](https://github.com/pandamoni
 
 To use, simply copy the `.h`/`.m` pair into your project. As the categories are very limited in scope and are tested, they usually shouldn't change much in the future.
 
-CocoaPods support in a bit!
+If you're using [CocoaPods](http://cocoapods.org/), simply add
+
+    pod 'AUX/<category>', :podspec => 'https://github.com/appscape/AUX/AUX.podspec'
+
+to your Podfile.
