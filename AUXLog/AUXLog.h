@@ -13,7 +13,7 @@
 // then in your .pch file, add:
 //
 // #ifndef DEBUG
-// #define AUXLog(obj) ((void)0)
+// #define AUXLog(x, ...) ((void)0)
 // #endif
 
 extern NSString* AUXLogStringify(CGRect r) __attribute__((overloadable));
