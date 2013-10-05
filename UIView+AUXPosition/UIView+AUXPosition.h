@@ -1,5 +1,4 @@
-// UIView+AUXPosition.h
-// From AUX, the Cocoa categories collection
+// From AUX, the Cocoa categories collection (http://github.com/appscape/AUX)
 
 #import <UIKit/UIKit.h>
 

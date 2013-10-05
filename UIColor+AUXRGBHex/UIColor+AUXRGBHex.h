@@ -1,3 +1,5 @@
+// From AUX, the Cocoa categories collection (http://github.com/appscape/AUX)
+
 #import <UIKit/UIKit.h>
 
 @interface UIColor(AUXRGBHex)

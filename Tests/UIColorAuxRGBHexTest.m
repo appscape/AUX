@@ -1,11 +1,3 @@
-//
-//  UIColorAuxHexTest.m
-//  AUX
-//
-//  Created by Esad Hajdarevic on 05.10.13.
-//
-//
-
 #import <XCTest/XCTest.h>
 #import "UIColor+AUXRGBHex.h"
 
