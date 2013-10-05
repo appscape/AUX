@@ -18,6 +18,8 @@
 		C7F8676B180091470031B7A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676A180091470031B7A1 /* XCTest.framework */; };
 		C7F8676D180091470031B7A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676C180091470031B7A1 /* Foundation.framework */; };
 		C7F8676F180091470031B7A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676E180091470031B7A1 /* UIKit.framework */; };
+		C7FE97E818510F9000BC7BCA /* UIImage+AUXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE97E718510F9000BC7BCA /* UIImage+AUXColor.m */; };
+		C7FE97EA18510FE900BC7BCA /* UIImageAuxColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE97E918510FE900BC7BCA /* UIImageAuxColorTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		C7F8676A180091470031B7A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676C180091470031B7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676E180091470031B7A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7FE97E618510F9000BC7BCA /* UIImage+AUXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+AUXColor.h"; path = "UIImage+AUXColor/UIImage+AUXColor.h"; sourceTree = "<group>"; };
+		C7FE97E718510F9000BC7BCA /* UIImage+AUXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AUXColor.m"; path = "UIImage+AUXColor/UIImage+AUXColor.m"; sourceTree = "<group>"; };
+		C7FE97E918510FE900BC7BCA /* UIImageAuxColorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAuxColorTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 				C7BCE1581800AE3400D3F022 /* AUXLog */,
 				C7BCE1961800DA8900D3F022 /* NSData+AUXHexString */,
 				C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */,
+				C7FE97E518510F8000BC7BCA /* UIImage+AUXColor */,
 				C7BCE142180099AA00D3F022 /* UIView+AUXPosition */,
 			);
 			name = Sources;
@@ -73,6 +79,7 @@
 				C7BCE148180099B800D3F022 /* Support */,
 				C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */,
 				C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */,
+				C7FE97E918510FE900BC7BCA /* UIImageAuxColorTest.m */,
 				C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */,
 				C7BCE1561800AB6700D3F022 /* AUXLogTest.m */,
 			);
@@ -153,6 +160,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C7FE97E518510F8000BC7BCA /* UIImage+AUXColor */ = {
+			isa = PBXGroup;
+			children = (
+				C7FE97E618510F9000BC7BCA /* UIImage+AUXColor.h */,
+				C7FE97E718510F9000BC7BCA /* UIImage+AUXColor.m */,
+			);
+			name = "UIImage+AUXColor";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FE97E818510F9000BC7BCA /* UIImage+AUXColor.m in Sources */,
 				C7BCE19B1800DBE100D3F022 /* NSDataAuxHexStringTest.m in Sources */,
 				C7BCE1541800A06100D3F022 /* UIColor+AUXRGBHex.m in Sources */,
 				C7BCE147180099B400D3F022 /* UIViewAuxPositionTest.m in Sources */,
+				C7FE97EA18510FE900BC7BCA /* UIImageAuxColorTest.m in Sources */,
 				C7BCE1571800AB6700D3F022 /* AUXLogTest.m in Sources */,
 				C7BCE15118009BCD00D3F022 /* UIColorAuxRGBHexTest.m in Sources */,
 				C7BCE145180099AA00D3F022 /* UIView+AUXPosition.m in Sources */,

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AUX"
-  s.version      = "0.1"
+  s.version      = "0.1.1"
   s.summary      = "Collection of useful Cocoa (mainly UIKit) categories with a goal of having no (inter)dependencies and good test coverage."
   s.homepage     = "https://github.com/appscape/AUX"
   s.license      = { :type => 'MIT' }
@@ -34,6 +34,13 @@ Pod::Spec.new do |s|
     ss.name         = "UIView+AUXPosition"
     ss.summary      = "Convenience accessors for UIView frame/bounds members"
     ss.source_files = 'UIView+AUXPosition/*.{h,m}'
+    ss.frameworks   = 'UIKit', 'Foundation'
+  end
+
+  s.subspec 'UIImage+AUXColor' do |ss|
+    ss.name         = "UIImage+AUXColor"
+    ss.summary      = "UIImage category returning 1x1 image in a supplied color"
+    ss.source_files = 'UIImage+AUXColor/*.{h,m}'
     ss.frameworks   = 'UIKit', 'Foundation'
   end
 end
