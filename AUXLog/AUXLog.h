@@ -9,8 +9,8 @@
 // AUXLogStringify(...) is provided if you want to insert the string description in an existing message, i.e.
 //   NSLog(@"Point is %@, AUXLogStringify(p))
 //
-// Hint: if you want to disable AUXLog statements in an release build, add DEBUG compiler flag to Debug configuration,
-// then in your .pch file, add:
+// Hint: if you want to disable AUXLog statements in a release build, add DEBUG=1 compiler flag to the 
+// Debug configuration. Then in your .pch file, add:
 //
 // #ifndef DEBUG
 // #define AUXLog(x, ...) ((void)0)
