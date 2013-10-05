@@ -1,4 +1,4 @@
-// From AUX, the Cocoa categories collection (http://github.com/appscape/AUX)
+// From AUX, the Cocoa categories collection http://github.com/appscape/AUX
 
 // AUXLog() is an alias for NSLog which uses Clang's function overloading to provide a string description
 // for UIKit structs. So instead of writing:
