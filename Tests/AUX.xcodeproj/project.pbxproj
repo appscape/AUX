@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C7BCE145180099AA00D3F022 /* UIView+AUXPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE144180099AA00D3F022 /* UIView+AUXPosition.m */; };
 		C7BCE147180099B400D3F022 /* UIViewAuxPositionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */; };
+		C7BCE14F18009B4400D3F022 /* UIColor+AUXRGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE14E18009B4400D3F022 /* UIColor+AUXRGBHex.m */; };
+		C7BCE15118009BCD00D3F022 /* UIColorAuxRGBHexTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */; };
 		C7F8676B180091470031B7A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676A180091470031B7A1 /* XCTest.framework */; };
 		C7F8676D180091470031B7A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676C180091470031B7A1 /* Foundation.framework */; };
 		C7F8676F180091470031B7A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676E180091470031B7A1 /* UIKit.framework */; };
@@ -20,6 +22,9 @@
 		C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAuxPositionTest.m; sourceTree = "<group>"; };
 		C7BCE149180099C100D3F022 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Support/Info.plist; sourceTree = "<group>"; };
 		C7BCE14A180099C100D3F022 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Support/Prefix.pch; sourceTree = "<group>"; };
+		C7BCE14D18009B4400D3F022 /* UIColor+AUXRGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AUXRGBHex.h"; sourceTree = "<group>"; };
+		C7BCE14E18009B4400D3F022 /* UIColor+AUXRGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AUXRGBHex.m"; sourceTree = "<group>"; };
+		C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAuxRGBHexTest.m; sourceTree = "<group>"; };
 		C7F86767180091470031B7A1 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8676A180091470031B7A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676C180091470031B7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -43,6 +48,7 @@
 		C7BCE1401800999500D3F022 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */,
 				C7BCE142180099AA00D3F022 /* UIView+AUXPosition */,
 			);
 			name = Categories;
@@ -54,6 +60,7 @@
 			children = (
 				C7BCE148180099B800D3F022 /* Support */,
 				C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */,
+				C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -74,6 +81,16 @@
 				C7BCE14A180099C100D3F022 /* Prefix.pch */,
 			);
 			name = Support;
+			sourceTree = "<group>";
+		};
+		C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */ = {
+			isa = PBXGroup;
+			children = (
+				C7BCE14D18009B4400D3F022 /* UIColor+AUXRGBHex.h */,
+				C7BCE14E18009B4400D3F022 /* UIColor+AUXRGBHex.m */,
+			);
+			name = "UIColor+AUXRGBHex";
+			path = "UIColor+AUXHex";
 			sourceTree = "<group>";
 		};
 		C7F8675C180091150031B7A1 = {
@@ -164,7 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BCE14F18009B4400D3F022 /* UIColor+AUXRGBHex.m in Sources */,
 				C7BCE147180099B400D3F022 /* UIViewAuxPositionTest.m in Sources */,
+				C7BCE15118009BCD00D3F022 /* UIColorAuxRGBHexTest.m in Sources */,
 				C7BCE145180099AA00D3F022 /* UIView+AUXPosition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
