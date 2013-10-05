@@ -13,6 +13,8 @@
 		C7BCE1541800A06100D3F022 /* UIColor+AUXRGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1531800A06100D3F022 /* UIColor+AUXRGBHex.m */; };
 		C7BCE1571800AB6700D3F022 /* AUXLogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1561800AB6700D3F022 /* AUXLogTest.m */; };
 		C7BCE15A1800AE4E00D3F022 /* AUXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1591800AE4E00D3F022 /* AUXLog.m */; };
+		C7BCE1991800DA9D00D3F022 /* NSData+AUXHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1981800DA9D00D3F022 /* NSData+AUXHexString.m */; };
+		C7BCE19B1800DBE100D3F022 /* NSDataAuxHexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */; };
 		C7F8676B180091470031B7A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676A180091470031B7A1 /* XCTest.framework */; };
 		C7F8676D180091470031B7A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676C180091470031B7A1 /* Foundation.framework */; };
 		C7F8676F180091470031B7A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676E180091470031B7A1 /* UIKit.framework */; };
@@ -30,6 +32,9 @@
 		C7BCE1551800AA1600D3F022 /* AUXLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = AUXLog.h; path = ../AUX/AUXLog/AUXLog.h; sourceTree = "<group>"; };
 		C7BCE1561800AB6700D3F022 /* AUXLogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUXLogTest.m; path = ../../AUX/Tests/AUXLogTest.m; sourceTree = "<group>"; };
 		C7BCE1591800AE4E00D3F022 /* AUXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUXLog.m; path = ../AUX/AUXLog/AUXLog.m; sourceTree = "<group>"; };
+		C7BCE1971800DA9D00D3F022 /* NSData+AUXHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+AUXHexString.h"; path = "../AUX/NSData+AUXHexString/NSData+AUXHexString.h"; sourceTree = "<group>"; };
+		C7BCE1981800DA9D00D3F022 /* NSData+AUXHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+AUXHexString.m"; path = "../AUX/NSData+AUXHexString/NSData+AUXHexString.m"; sourceTree = "<group>"; };
+		C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataAuxHexStringTest.m; path = ../../AUX/Tests/NSDataAuxHexStringTest.m; sourceTree = "<group>"; };
 		C7F86767180091470031B7A1 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8676A180091470031B7A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676C180091470031B7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				C7BCE1581800AE3400D3F022 /* AUXLog */,
+				C7BCE1961800DA8900D3F022 /* NSData+AUXHexString */,
 				C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */,
 				C7BCE142180099AA00D3F022 /* UIView+AUXPosition */,
 			);
@@ -66,6 +72,7 @@
 			children = (
 				C7BCE148180099B800D3F022 /* Support */,
 				C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */,
+				C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */,
 				C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */,
 				C7BCE1561800AB6700D3F022 /* AUXLogTest.m */,
 			);
@@ -107,6 +114,15 @@
 				C7BCE1591800AE4E00D3F022 /* AUXLog.m */,
 			);
 			name = AUXLog;
+			sourceTree = "<group>";
+		};
+		C7BCE1961800DA8900D3F022 /* NSData+AUXHexString */ = {
+			isa = PBXGroup;
+			children = (
+				C7BCE1971800DA9D00D3F022 /* NSData+AUXHexString.h */,
+				C7BCE1981800DA9D00D3F022 /* NSData+AUXHexString.m */,
+			);
+			name = "NSData+AUXHexString";
 			sourceTree = "<group>";
 		};
 		C7F8675C180091150031B7A1 = {
@@ -197,12 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BCE19B1800DBE100D3F022 /* NSDataAuxHexStringTest.m in Sources */,
 				C7BCE1541800A06100D3F022 /* UIColor+AUXRGBHex.m in Sources */,
 				C7BCE147180099B400D3F022 /* UIViewAuxPositionTest.m in Sources */,
 				C7BCE1571800AB6700D3F022 /* AUXLogTest.m in Sources */,
 				C7BCE15118009BCD00D3F022 /* UIColorAuxRGBHexTest.m in Sources */,
 				C7BCE145180099AA00D3F022 /* UIView+AUXPosition.m in Sources */,
 				C7BCE15A1800AE4E00D3F022 /* AUXLog.m in Sources */,
+				C7BCE1991800DA9D00D3F022 /* NSData+AUXHexString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
