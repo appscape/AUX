@@ -84,7 +84,6 @@
     CGRect rect = self.frame;
     rect.size.height = newHeight;
     self.frame = rect;
-
 }
 
 - (CGPoint)auxBoundsOrigin {
