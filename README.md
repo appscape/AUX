@@ -12,6 +12,6 @@ To use, simply copy the `.h`/`.m` pair into your project. As the categories are 
 
 If you're using [CocoaPods](http://cocoapods.org/), simply add
 
-    pod 'AUX/<category>', :podspec => 'https://github.com/appscape/AUX/AUX.podspec'
+    pod 'AUX/<category>', :podspec => 'https://raw.github.com/appscape/AUX/master/AUX.podspec'
 
 to your Podfile.
