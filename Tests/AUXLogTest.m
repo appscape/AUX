@@ -46,6 +46,11 @@ static NSString* LastConsoleMessage() {
 
     AUXLog(CGSizeMake(13,37));
     XCTAssertEqualObjects(LastConsoleMessage(), @"{13, 37}");
+    
+    
+    NSError *error = [NSError errorWithDomain:@"domain" code:2 userInfo:@{@ "error" : @"test error"}];
+    AUXLog(error);
+    XCTAssertEqualObjects(LastConsoleMessage(), @"domain:domain code:2 userInfo:{\n    error = \"test error\";\n}");
 }
 
 @end

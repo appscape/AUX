@@ -14,6 +14,10 @@ NSString* __attribute__((overloadable)) AUXLogStringify(CGSize s) {
     return NSStringFromCGSize(s);
 }
 
+NSString* __attribute__((overloadable)) AUXLogStringify(NSError *e) {
+    return [NSString stringWithFormat:@"domain:%@ code:%d userInfo:%@", e.domain, e.code, e.userInfo];
+}
+
 void __attribute__((overloadable)) AUXLog(CGRect r) {
     NSLog(@"%@", AUXLogStringify(r));
 }
@@ -24,6 +28,10 @@ void __attribute__((overloadable)) AUXLog(CGPoint p) {
 
 void __attribute__((overloadable)) AUXLog(CGSize s) {
     NSLog(@"%@", AUXLogStringify(s));
+}
+
+void __attribute__((overloadable)) AUXLog(NSError *e) {
+    NSLog(@"%@", AUXLogStringify(e));
 }
 
 void __attribute__((overloadable)) AUXLog(NSString *fmt, ...) {

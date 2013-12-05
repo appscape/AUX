@@ -19,8 +19,10 @@
 extern NSString* AUXLogStringify(CGRect r) __attribute__((overloadable));
 extern NSString* AUXLogStringify(CGPoint p) __attribute__((overloadable));
 extern NSString* AUXLogStringify(CGSize s) __attribute__((overloadable));
+extern NSString* AUXLogStringify(NSError *e) __attribute__((overloadable));
 
 extern void AUXLog(CGRect r) __attribute__((overloadable));
 extern void AUXLog(CGPoint p) __attribute__((overloadable));
 extern void AUXLog(CGSize s) __attribute__((overloadable));
+extern void AUXLog(NSError *e) __attribute__((overloadable));
 extern void AUXLog(NSString* fmt, ...) __attribute__((overloadable));
