@@ -6,19 +6,12 @@
 // you can just write:
 //   AUXLog(p);
 //
-// AUXLogStringify(...) is provided if you want to insert the string description in an existing message, i.e.
-//   NSLog(@"Point is %@, AUXLogStringify(p))
-//
 // Hint: if you want to disable AUXLog statements in a release build, add DEBUG=1 compiler flag to the 
 // Debug configuration. Then in your .pch file, add:
 //
 // #ifndef DEBUG
 // #define AUXLog(x, ...) ((void)0)
 // #endif
-
-extern NSString* AUXLogStringify(CGRect r) __attribute__((overloadable));
-extern NSString* AUXLogStringify(CGPoint p) __attribute__((overloadable));
-extern NSString* AUXLogStringify(CGSize s) __attribute__((overloadable));
 
 extern void AUXLog(CGRect r) __attribute__((overloadable));
 extern void AUXLog(CGPoint p) __attribute__((overloadable));

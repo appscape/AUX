@@ -2,28 +2,16 @@
 
 #import "AUXLog.h"
 
-NSString* __attribute__((overloadable)) AUXLogStringify(CGRect r) {
-    return NSStringFromCGRect(r);
-}
-
-NSString* __attribute__((overloadable)) AUXLogStringify(CGPoint p) {
-    return NSStringFromCGPoint(p);
-}
-
-NSString* __attribute__((overloadable)) AUXLogStringify(CGSize s) {
-    return NSStringFromCGSize(s);
-}
-
 void __attribute__((overloadable)) AUXLog(CGRect r) {
-    NSLog(@"%@", AUXLogStringify(r));
+    NSLog(@"%@", NSStringFromCGRect(r));
 }
 
 void __attribute__((overloadable)) AUXLog(CGPoint p) {
-    NSLog(@"%@", AUXLogStringify(p));
+    NSLog(@"%@", NSStringFromCGPoint(p));
 }
 
 void __attribute__((overloadable)) AUXLog(CGSize s) {
-    NSLog(@"%@", AUXLogStringify(s));
+    NSLog(@"%@", NSStringFromCGSize(s));
 }
 
 void __attribute__((overloadable)) AUXLog(id obj) {
