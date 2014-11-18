@@ -7,43 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7BCE145180099AA00D3F022 /* UIView+AUXPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE144180099AA00D3F022 /* UIView+AUXPosition.m */; };
-		C7BCE147180099B400D3F022 /* UIViewAuxPositionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */; };
-		C7BCE15118009BCD00D3F022 /* UIColorAuxRGBHexTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */; };
-		C7BCE1541800A06100D3F022 /* UIColor+AUXRGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1531800A06100D3F022 /* UIColor+AUXRGBHex.m */; };
+		C7AE61B71A1BE54F00926C15 /* AUXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B01A1BE54F00926C15 /* AUXLog.m */; };
+		C7AE61B81A1BE54F00926C15 /* NSData+XHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B21A1BE54F00926C15 /* NSData+XHexString.m */; };
+		C7AE61B91A1BE54F00926C15 /* UIColor+XRGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B41A1BE54F00926C15 /* UIColor+XRGBHex.m */; };
+		C7AE61BA1A1BE54F00926C15 /* UIImage+XColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B61A1BE54F00926C15 /* UIImage+XColor.m */; };
+		C7BCE15118009BCD00D3F022 /* UIColorXRGBHexTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE15018009BCD00D3F022 /* UIColorXRGBHexTest.m */; };
 		C7BCE1571800AB6700D3F022 /* AUXLogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1561800AB6700D3F022 /* AUXLogTest.m */; };
-		C7BCE15A1800AE4E00D3F022 /* AUXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1591800AE4E00D3F022 /* AUXLog.m */; };
-		C7BCE1991800DA9D00D3F022 /* NSData+AUXHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE1981800DA9D00D3F022 /* NSData+AUXHexString.m */; };
-		C7BCE19B1800DBE100D3F022 /* NSDataAuxHexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */; };
+		C7BCE19B1800DBE100D3F022 /* NSDataXHexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE19A1800DBE100D3F022 /* NSDataXHexStringTest.m */; };
 		C7F8676B180091470031B7A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676A180091470031B7A1 /* XCTest.framework */; };
 		C7F8676D180091470031B7A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676C180091470031B7A1 /* Foundation.framework */; };
 		C7F8676F180091470031B7A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8676E180091470031B7A1 /* UIKit.framework */; };
-		C7FE97E818510F9000BC7BCA /* UIImage+AUXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE97E718510F9000BC7BCA /* UIImage+AUXColor.m */; };
-		C7FE97EA18510FE900BC7BCA /* UIImageAuxColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE97E918510FE900BC7BCA /* UIImageAuxColorTest.m */; };
+		C7FE97EA18510FE900BC7BCA /* UIImageXColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE97E918510FE900BC7BCA /* UIImageXColorTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C7BCE143180099AA00D3F022 /* UIView+AUXPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUXPosition.h"; sourceTree = "<group>"; };
-		C7BCE144180099AA00D3F022 /* UIView+AUXPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUXPosition.m"; sourceTree = "<group>"; };
-		C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAuxPositionTest.m; sourceTree = "<group>"; };
+		C7AE61AF1A1BE54300926C15 /* AUXLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUXLog.h; path = ../Sources/AUXLog.h; sourceTree = "<group>"; };
+		C7AE61B01A1BE54F00926C15 /* AUXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUXLog.m; path = ../Sources/AUXLog.m; sourceTree = "<group>"; };
+		C7AE61B11A1BE54F00926C15 /* NSData+XHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+XHexString.h"; path = "../Sources/NSData+XHexString.h"; sourceTree = "<group>"; };
+		C7AE61B21A1BE54F00926C15 /* NSData+XHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+XHexString.m"; path = "../Sources/NSData+XHexString.m"; sourceTree = "<group>"; };
+		C7AE61B31A1BE54F00926C15 /* UIColor+XRGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+XRGBHex.h"; path = "../Sources/UIColor+XRGBHex.h"; sourceTree = "<group>"; };
+		C7AE61B41A1BE54F00926C15 /* UIColor+XRGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XRGBHex.m"; path = "../Sources/UIColor+XRGBHex.m"; sourceTree = "<group>"; };
+		C7AE61B51A1BE54F00926C15 /* UIImage+XColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+XColor.h"; path = "../Sources/UIImage+XColor.h"; sourceTree = "<group>"; };
+		C7AE61B61A1BE54F00926C15 /* UIImage+XColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XColor.m"; path = "../Sources/UIImage+XColor.m"; sourceTree = "<group>"; };
 		C7BCE149180099C100D3F022 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Support/Info.plist; sourceTree = "<group>"; };
 		C7BCE14A180099C100D3F022 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Support/Prefix.pch; sourceTree = "<group>"; };
-		C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAuxRGBHexTest.m; sourceTree = "<group>"; };
-		C7BCE1521800A06100D3F022 /* UIColor+AUXRGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AUXRGBHex.h"; sourceTree = "<group>"; };
-		C7BCE1531800A06100D3F022 /* UIColor+AUXRGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AUXRGBHex.m"; sourceTree = "<group>"; };
-		C7BCE1551800AA1600D3F022 /* AUXLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = AUXLog.h; path = ../AUX/AUXLog/AUXLog.h; sourceTree = "<group>"; };
+		C7BCE15018009BCD00D3F022 /* UIColorXRGBHexTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorXRGBHexTest.m; sourceTree = "<group>"; };
 		C7BCE1561800AB6700D3F022 /* AUXLogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUXLogTest.m; path = ../../AUX/Tests/AUXLogTest.m; sourceTree = "<group>"; };
-		C7BCE1591800AE4E00D3F022 /* AUXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUXLog.m; path = ../AUX/AUXLog/AUXLog.m; sourceTree = "<group>"; };
-		C7BCE1971800DA9D00D3F022 /* NSData+AUXHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+AUXHexString.h"; path = "../AUX/NSData+AUXHexString/NSData+AUXHexString.h"; sourceTree = "<group>"; };
-		C7BCE1981800DA9D00D3F022 /* NSData+AUXHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+AUXHexString.m"; path = "../AUX/NSData+AUXHexString/NSData+AUXHexString.m"; sourceTree = "<group>"; };
-		C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataAuxHexStringTest.m; path = ../../AUX/Tests/NSDataAuxHexStringTest.m; sourceTree = "<group>"; };
+		C7BCE19A1800DBE100D3F022 /* NSDataXHexStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataXHexStringTest.m; path = ../../AUX/Tests/NSDataXHexStringTest.m; sourceTree = "<group>"; };
 		C7F86767180091470031B7A1 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8676A180091470031B7A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676C180091470031B7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C7F8676E180091470031B7A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C7FE97E618510F9000BC7BCA /* UIImage+AUXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+AUXColor.h"; path = "UIImage+AUXColor/UIImage+AUXColor.h"; sourceTree = "<group>"; };
-		C7FE97E718510F9000BC7BCA /* UIImage+AUXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AUXColor.m"; path = "UIImage+AUXColor/UIImage+AUXColor.m"; sourceTree = "<group>"; };
-		C7FE97E918510FE900BC7BCA /* UIImageAuxColorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAuxColorTest.m; sourceTree = "<group>"; };
+		C7FE97E918510FE900BC7BCA /* UIImageXColorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageXColorTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,40 +55,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7BCE1401800999500D3F022 /* Sources */ = {
+		C7AE61AE1A1BE53200926C15 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C7BCE1581800AE3400D3F022 /* AUXLog */,
-				C7BCE1961800DA8900D3F022 /* NSData+AUXHexString */,
-				C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */,
-				C7FE97E518510F8000BC7BCA /* UIImage+AUXColor */,
-				C7BCE142180099AA00D3F022 /* UIView+AUXPosition */,
+				C7AE61AF1A1BE54300926C15 /* AUXLog.h */,
+				C7AE61B01A1BE54F00926C15 /* AUXLog.m */,
+				C7AE61B11A1BE54F00926C15 /* NSData+XHexString.h */,
+				C7AE61B21A1BE54F00926C15 /* NSData+XHexString.m */,
+				C7AE61B31A1BE54F00926C15 /* UIColor+XRGBHex.h */,
+				C7AE61B41A1BE54F00926C15 /* UIColor+XRGBHex.m */,
+				C7AE61B51A1BE54F00926C15 /* UIImage+XColor.h */,
+				C7AE61B61A1BE54F00926C15 /* UIImage+XColor.m */,
 			);
 			name = Sources;
-			path = ..;
+			path = ../Sources;
 			sourceTree = SOURCE_ROOT;
 		};
 		C7BCE1411800999B00D3F022 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				C7BCE148180099B800D3F022 /* Support */,
-				C7BCE146180099B400D3F022 /* UIViewAuxPositionTest.m */,
-				C7BCE19A1800DBE100D3F022 /* NSDataAuxHexStringTest.m */,
-				C7FE97E918510FE900BC7BCA /* UIImageAuxColorTest.m */,
-				C7BCE15018009BCD00D3F022 /* UIColorAuxRGBHexTest.m */,
+				C7BCE19A1800DBE100D3F022 /* NSDataXHexStringTest.m */,
+				C7FE97E918510FE900BC7BCA /* UIImageXColorTest.m */,
+				C7BCE15018009BCD00D3F022 /* UIColorXRGBHexTest.m */,
 				C7BCE1561800AB6700D3F022 /* AUXLogTest.m */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
-		};
-		C7BCE142180099AA00D3F022 /* UIView+AUXPosition */ = {
-			isa = PBXGroup;
-			children = (
-				C7BCE143180099AA00D3F022 /* UIView+AUXPosition.h */,
-				C7BCE144180099AA00D3F022 /* UIView+AUXPosition.m */,
-			);
-			path = "UIView+AUXPosition";
-			sourceTree = "<group>";
 		};
 		C7BCE148180099B800D3F022 /* Support */ = {
 			isa = PBXGroup;
@@ -104,38 +92,10 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
-		C7BCE14C18009B4400D3F022 /* UIColor+AUXRGBHex */ = {
-			isa = PBXGroup;
-			children = (
-				C7BCE1521800A06100D3F022 /* UIColor+AUXRGBHex.h */,
-				C7BCE1531800A06100D3F022 /* UIColor+AUXRGBHex.m */,
-			);
-			name = "UIColor+AUXRGBHex";
-			path = "../AUX/UIColor+AUXRGBHex";
-			sourceTree = "<group>";
-		};
-		C7BCE1581800AE3400D3F022 /* AUXLog */ = {
-			isa = PBXGroup;
-			children = (
-				C7BCE1551800AA1600D3F022 /* AUXLog.h */,
-				C7BCE1591800AE4E00D3F022 /* AUXLog.m */,
-			);
-			name = AUXLog;
-			sourceTree = "<group>";
-		};
-		C7BCE1961800DA8900D3F022 /* NSData+AUXHexString */ = {
-			isa = PBXGroup;
-			children = (
-				C7BCE1971800DA9D00D3F022 /* NSData+AUXHexString.h */,
-				C7BCE1981800DA9D00D3F022 /* NSData+AUXHexString.m */,
-			);
-			name = "NSData+AUXHexString";
-			sourceTree = "<group>";
-		};
 		C7F8675C180091150031B7A1 = {
 			isa = PBXGroup;
 			children = (
-				C7BCE1401800999500D3F022 /* Sources */,
+				C7AE61AE1A1BE53200926C15 /* Sources */,
 				C7BCE1411800999B00D3F022 /* Tests */,
 				C7F86769180091470031B7A1 /* Frameworks */,
 				C7F86768180091470031B7A1 /* Products */,
@@ -158,15 +118,6 @@
 				C7F8676E180091470031B7A1 /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C7FE97E518510F8000BC7BCA /* UIImage+AUXColor */ = {
-			isa = PBXGroup;
-			children = (
-				C7FE97E618510F9000BC7BCA /* UIImage+AUXColor.h */,
-				C7FE97E718510F9000BC7BCA /* UIImage+AUXColor.m */,
-			);
-			name = "UIImage+AUXColor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +146,7 @@
 		C7F8675D180091150031B7A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = C7F86760180091150031B7A1 /* Build configuration list for PBXProject "AUX" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -229,16 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FE97E818510F9000BC7BCA /* UIImage+AUXColor.m in Sources */,
-				C7BCE19B1800DBE100D3F022 /* NSDataAuxHexStringTest.m in Sources */,
-				C7BCE1541800A06100D3F022 /* UIColor+AUXRGBHex.m in Sources */,
-				C7BCE147180099B400D3F022 /* UIViewAuxPositionTest.m in Sources */,
-				C7FE97EA18510FE900BC7BCA /* UIImageAuxColorTest.m in Sources */,
+				C7AE61B91A1BE54F00926C15 /* UIColor+XRGBHex.m in Sources */,
+				C7AE61B81A1BE54F00926C15 /* NSData+XHexString.m in Sources */,
+				C7BCE19B1800DBE100D3F022 /* NSDataXHexStringTest.m in Sources */,
+				C7AE61B71A1BE54F00926C15 /* AUXLog.m in Sources */,
+				C7FE97EA18510FE900BC7BCA /* UIImageXColorTest.m in Sources */,
 				C7BCE1571800AB6700D3F022 /* AUXLogTest.m in Sources */,
-				C7BCE15118009BCD00D3F022 /* UIColorAuxRGBHexTest.m in Sources */,
-				C7BCE145180099AA00D3F022 /* UIView+AUXPosition.m in Sources */,
-				C7BCE15A1800AE4E00D3F022 /* AUXLog.m in Sources */,
-				C7BCE1991800DA9D00D3F022 /* NSData+AUXHexString.m in Sources */,
+				C7AE61BA1A1BE54F00926C15 /* UIImage+XColor.m in Sources */,
+				C7BCE15118009BCD00D3F022 /* UIColorXRGBHexTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +197,7 @@
 		C7F86761180091150031B7A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -261,7 +211,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -309,7 +258,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;

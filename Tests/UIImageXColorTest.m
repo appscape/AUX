@@ -1,14 +1,14 @@
 #import <XCTest/XCTest.h>
-#import "UIImage+AUXColor.h"
+#import "UIImage+XColor.h"
 
-@interface UIImageAuxColorTest : XCTestCase
+@interface UIImageXColorTest : XCTestCase
 
 @end
 
-@implementation UIImageAuxColorTest
+@implementation UIImageXColorTest
 
 - (void)test {
-    UIImage *image = [UIImage auxImageWithColor:[UIColor brownColor]]; // 0.6, 0.4, 0.2 RGB
+    UIImage *image = [UIImage x_imageWithColor:[UIColor brownColor]]; // 0.6, 0.4, 0.2 RGB
     XCTAssertEqualWithAccuracy(image.size.width, 1, FLT_EPSILON,  @"Invalid image width");
     XCTAssertEqualWithAccuracy(image.size.height, 1, FLT_EPSILON, @"Invalid image height");
 

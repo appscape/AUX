@@ -1,10 +1,10 @@
 // From AUX, the Cocoa categories collection http://github.com/appscape/AUX
 
-#import "UIImage+AUXColor.h"
+#import "UIImage+XColor.h"
 
-@implementation UIImage(AUXColor)
+@implementation UIImage(XColor)
 
-+ (UIImage *)auxImageWithColor:(UIColor*)color {
++ (UIImage *)x_imageWithColor:(UIColor*)color {
     CGRect rect = CGRectMake(0, 0, 1, 1);
 
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);

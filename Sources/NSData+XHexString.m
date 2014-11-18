@@ -1,8 +1,8 @@
 // From AUX, the Cocoa categories collection http://github.com/appscape/AUX
 
-@implementation NSData(AUXHexString)
+@implementation NSData(XHexString)
 
-- (NSString *)auxHexString {
+- (NSString *)x_hexString {
     const unsigned char *dataBuffer = (const unsigned char *)[self bytes];
 
     if (!dataBuffer) return @"";

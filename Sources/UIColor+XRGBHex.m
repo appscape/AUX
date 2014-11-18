@@ -1,10 +1,10 @@
 // From AUX, the Cocoa categories collection http://github.com/appscape/AUX
 
-#import "UIColor+AUXRGBHex.h"
+#import "UIColor+XRGBHex.h"
 
-@implementation UIColor(RGBHex)
+@implementation UIColor(XRGBHex)
 
-+ (UIColor *)auxColorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha {
++ (UIColor *)x_colorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha {
     int r = (hex >> 16) & 0xFF;
     int g = (hex >> 8) & 0xFF;
     int b = (hex) & 0xFF;
@@ -15,8 +15,8 @@
                            alpha:alpha];
 }
 
-+ (UIColor *)auxColorWithRGBHex:(UInt32)hex {
-    return [self auxColorWithRGBHex:hex alpha:1.0f];
++ (UIColor *)x_colorWithRGBHex:(UInt32)hex {
+    return [self x_colorWithRGBHex:hex alpha:1.0f];
 }
 
 @end

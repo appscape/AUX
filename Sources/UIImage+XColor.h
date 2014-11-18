@@ -2,9 +2,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage(AUXColor)
+@interface UIImage(XColor)
 
 // Returns a 1x1 UIImage with one pixel set to the supplied color
-+ (UIImage *)auxImageWithColor:(UIColor*)color;
++ (UIImage *)x_imageWithColor:(UIColor*)color;
 
 @end
