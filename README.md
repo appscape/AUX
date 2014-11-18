@@ -1,6 +1,6 @@
 # AUX
 
-AUX is a collection of Cocoa (mainly UIKit) categories with no (inter)dependencies and test coverage.
+AUX is a collection of Cocoa (mainly UIKit) categories with test coverage and no (inter)dependencies.
 
 Category names have a prefix `X` while category methods start with `x_`.
 
