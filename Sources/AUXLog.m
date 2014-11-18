@@ -26,6 +26,10 @@ void __attribute__((overloadable)) AUXLog(CGSize s) {
     NSLog(@"%@", AUXLogStringify(s));
 }
 
+void __attribute__((overloadable)) AUXLog(id obj) {
+    NSLog(@"%@", [obj description]);
+}
+
 void __attribute__((overloadable)) AUXLog(NSString *fmt, ...) {
     va_list argp;
 	va_start(argp, fmt);

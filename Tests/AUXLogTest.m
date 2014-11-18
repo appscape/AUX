@@ -18,13 +18,12 @@ static NSString* LastConsoleMessage() {
     asl_free(query);
 
     aslmsg message;
-    while((message = aslresponse_next(response)))
-    {
+    while((message = asl_next(response))) {
         const char *msg = asl_get(message, ASL_KEY_MSG);
         [consoleLog addObject:[NSString stringWithCString:msg encoding:NSUTF8StringEncoding]];
     }
 
-    aslresponse_free(response);
+    asl_release(response);
     asl_close(client);
 
     return [consoleLog lastObject];
@@ -38,6 +37,10 @@ static NSString* LastConsoleMessage() {
 
 - (void)testLog
 {
+    NSError *err = [NSError errorWithDomain:@"somedomain" code:123 userInfo:@{@"foo": @"bar"}];
+    AUXLog(err);
+    XCTAssertEqualObjects(LastConsoleMessage(), [err description]);
+
     AUXLog(CGRectMake(10,20,320,155));
     XCTAssertEqualObjects(LastConsoleMessage(), @"{{10, 20}, {320, 155}}");
 
