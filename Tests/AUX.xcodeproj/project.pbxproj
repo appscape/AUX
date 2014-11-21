@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7323D851A1FA419008C7708 /* NSObject+XLogDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = C7323D841A1FA419008C7708 /* NSObject+XLogDealloc.m */; };
 		C7AE61B71A1BE54F00926C15 /* AUXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B01A1BE54F00926C15 /* AUXLog.m */; };
 		C7AE61B81A1BE54F00926C15 /* NSData+XHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B21A1BE54F00926C15 /* NSData+XHexString.m */; };
 		C7AE61B91A1BE54F00926C15 /* UIColor+XRGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE61B41A1BE54F00926C15 /* UIColor+XRGBHex.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7323D831A1FA419008C7708 /* NSObject+XLogDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLogDealloc.h"; sourceTree = "<group>"; };
+		C7323D841A1FA419008C7708 /* NSObject+XLogDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLogDealloc.m"; sourceTree = "<group>"; };
 		C7AE61AF1A1BE54300926C15 /* AUXLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUXLog.h; path = ../Sources/AUXLog.h; sourceTree = "<group>"; };
 		C7AE61B01A1BE54F00926C15 /* AUXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUXLog.m; path = ../Sources/AUXLog.m; sourceTree = "<group>"; };
 		C7AE61B11A1BE54F00926C15 /* NSData+XHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+XHexString.h"; path = "../Sources/NSData+XHexString.h"; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		C7AE61AE1A1BE53200926C15 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C7323D831A1FA419008C7708 /* NSObject+XLogDealloc.h */,
+				C7323D841A1FA419008C7708 /* NSObject+XLogDealloc.m */,
 				C7AE61AF1A1BE54300926C15 /* AUXLog.h */,
 				C7AE61B01A1BE54F00926C15 /* AUXLog.m */,
 				C7AE61B11A1BE54F00926C15 /* NSData+XHexString.h */,
@@ -180,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7323D851A1FA419008C7708 /* NSObject+XLogDealloc.m in Sources */,
 				C7AE61B91A1BE54F00926C15 /* UIColor+XRGBHex.m in Sources */,
 				C7AE61B81A1BE54F00926C15 /* NSData+XHexString.m in Sources */,
 				C7BCE19B1800DBE100D3F022 /* NSDataXHexStringTest.m in Sources */,

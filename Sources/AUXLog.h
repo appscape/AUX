@@ -18,3 +18,5 @@ extern void AUXLog(CGPoint p) __attribute__((overloadable));
 extern void AUXLog(CGSize s) __attribute__((overloadable));
 extern void AUXLog(id obj) __attribute__((overloadable));
 extern void AUXLog(NSString* fmt, ...) __attribute__((overloadable));
+
+#define AUX_LOG_AVAILABLE 1
